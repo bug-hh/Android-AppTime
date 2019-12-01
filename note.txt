@@ -1,0 +1,11 @@
+1、先指定 apk 的本地路径
+    sh run.sh --apkPath = /apkPath/zhihu.apk
+2、卸载 apk，安装 apk
+3、shell 将 so 文件 push 到手机
+4、shell 启动手机中的 minicap
+    sh minicap_setup.sh
+5、shell 启动 python 图像读取程序
+
+6、python 在控制台打印「APP 启动时间」和「首页加载时间」
+
+start logo [ad] loading words end
